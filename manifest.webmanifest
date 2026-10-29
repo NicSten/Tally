@@ -1,0 +1,19 @@
+{
+  "name": "Tally",
+  "short_name": "Tally",
+  "description": "Budget planner: portion out paychecks, plan bills, debt payoff dates, savings and auto-transfers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#E6E8E5",
+  "theme_color": "#E6E8E5",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Plan", "short_name": "Plan", "url": "./?tab=plan", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Debt payoff", "short_name": "Debt", "url": "./?tab=debt", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Savings", "short_name": "Savings", "url": "./?tab=save", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
